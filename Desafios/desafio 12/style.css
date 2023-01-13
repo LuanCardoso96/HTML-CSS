@@ -29,15 +29,19 @@ header > h1 {
     font-size: 10vw; /* view port ! 10% do tamanho da tela seja ela grande ou pequena*/
 
 }
+
+
 header > p {
      padding-bottom:  50px;
      font-size: 25pt;
 
 }
 header a, footer a {
-    color: white;
+    color: rgb(210, 207, 233);
     text-decoration: none; /* Retira o Sublinhado do texto com Link*/
     font-weight: bolder; /* fonte em negrito*/
+    color: ;
+    padding: 5px 5px 5px 5px;
 }
 header a:hover, footer a:hover {
     text-decoration: underline; /* O texto marcado com hover fica com sublinhado ao passar o mouse*/
@@ -49,9 +53,7 @@ section {
     line-height: 2em; /* Espaçamento entre as Letras*/
     padding-left: 30px;
     font-size: 3vw;
-    
-    
-
+      
 }
 
 section.normal {
@@ -91,10 +93,17 @@ footer {
     font-size: 2vw;
     
 }
-a:hover > footer a{
-    background-color: rgba(0, 0, 255, 0.596);
-    border: 5px;
-    text-shadow: 2px 5px 3px rgb(0, 0, 0);
+:hover > a {
+    background-color: rgba(0, 0, 255, 0.178);
+    text-align: center;
+    text-shadow: white
+}
+audio {
+    background-color: blanchedalmond;
+    border-radius: 2px;
+    padding: 5px
+    
+ 
 }
     
     
